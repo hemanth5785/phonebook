@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image: url("images/image12.jpg");
+}
+#insert
+{
+	margin-top : 70px;
+}
+
+#search{
+	margin-top : 60px;
+}
+
+#view,#home
+{
+	margin-top : 50px;
+}
+#search
+{
+	width : 30%;
+	border : 2px solid #787878;
+	padding: 8px;
+	padding-top: 5px;
+	border-radius : 5px;
+	font-size: 17px;
+}
+#insert,
+{
+	font-size: 17px;
+}
+
+#input_button,#login
+{
+	width : 10%;
+	border : 1.5px solid #555555;
+	border-radius : 3px;
+	background-color :rgba(255,255,255,0.2);
+}
+
+#input_button:hover,
+{ 
+	background-color : rgba(0,0,254,0.6);
+}
+
+#name,#number,#username,#password
+{
+	width : 20%;
+	border : 2px solid #787878;
+	padding: 8px;
+	padding-top: 5px;
+	border-radius : 5px;
+	font-size: 17px;
+}
+#login
+{
+	width : 10%;
+	height : 35px;
+	border : 1.5px solid #555555;
+	border-radius : 3px;
+	background-color :rgba(255,255,255,0.2);
+}
+#login:hover
+{
+	background-color : rgba(0,0,254,0.6);
+}
+#dialogoverlay{
+	display: none;
+	opacity: .5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	display: none;
+	position: fixed;
+	background: #000;
+	border-radius:7px; 
+	width:550px;
+	z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:3px; }
+#dialogbox > div > #dialogboxhead{ background: #7c79ff; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background: #4b4bde; padding:20px; color:#FFF; }
+#dialogbox > div > #dialogboxfoot{ background: #7c79ff; padding:10px; text-align:right; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e2f32;
+ }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none
+}
+li.log
+{
+	float:right;
+}
+.active
+{
+	background-color: green;
+}
+
+.loginBox
+{
+	margin-top :100px;
+}
+
+#welcome
+{
+	color : green;
+	margin-top : 20px;
+	margin-left:10px;
+}
